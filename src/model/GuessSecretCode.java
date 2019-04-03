@@ -38,8 +38,6 @@ public class GuessSecretCode {
     private void generateCode() {
         secretCode = (int)(Math.random() * 100000);
         secretCodeString = Integer.toString(secretCode);
-        System.out.printf("%d\n", secretCode);
-        System.out.println(secretCodeString);
     }
 
     private void promptUserForGuess() {
